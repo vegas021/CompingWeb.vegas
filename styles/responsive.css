@@ -1,0 +1,94 @@
+@media (min-width:576px) {
+    
+}
+@media (min-width:768px) {
+    .mobileNavMenu , .NavBtn{
+        display: none;
+    }
+    .desktopMenu{
+        display: flex;
+    }
+.conections{
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    
+}
+.conectionsContent{
+   flex-basis: 60%;
+   padding-right: 2rem;
+}
+.conectionsBanner{
+    flex-basis: 40%;
+}
+.conections::before{
+    width: auto;
+    height: auto;
+    top: -5rem;
+    left: -40rem;
+    background-size: auto;
+    background-position: center left;
+}
+.footerApp{
+    display: block;
+}
+.footerAppMobaile{
+    display: none;
+}
+.footerWraper{
+    display: flex;
+}
+.footerLeft{
+    max-width: 50rem;
+}
+.footerScroll{
+   left: auto;
+}
+.footerColumn{
+    justify-content: space-between;
+}
+.footerWraper{
+    margin-bottom: 0;
+    margin-left: 2rem;
+}
+}
+@media (min-width:992px) {
+ .desktopNaveLinks{
+    display: block;
+ }  
+ .conectionsContent{
+    padding-right: 4rem;
+ } 
+ .conectionsTitle{
+    margin-bottom: 0;
+
+ }
+ .conections::before{
+    top: -10rem;
+    left: -30rem;
+
+}
+}
+@media (min-width:1200px) {
+    .conections{
+        justify-content: space-between; 
+    }
+    .conectionsContent{
+        flex-basis: auto;
+        width: 60rem;
+    }
+    .conectionsBanner{
+        flex-basis: auto;
+        width: 42rem;
+    }
+    .conectionsContent::before{
+        top: -15rem;
+        left: -15rem;
+    }
+  
+}
+@media (min-width:1400px) {
+    .conections{
+        padding: 3rem 6rem;
+    }
+}
